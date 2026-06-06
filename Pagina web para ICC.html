@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingeniería de IA - UNMSM</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{
+background:linear-gradient(rgba(255,255,255,.65),rgba(255,255,255,.65)),
+url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=2000&q=100');
+background-size:cover;background-attachment:fixed;
+}
+.hero{
+height:550px;color:white;text-align:center;
+display:flex;flex-direction:column;justify-content:center;align-items:center;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('https://1.bp.blogspot.com/-hXAHecNsGKs/XB1rh7b_jxI/AAAAAAAAACk/z2JYnbW4ToYt0tAlvHil4ldMvd2rxJPhACLcBGAs/s1600/FISI.jpg');
+background-size:cover;background-position:center;
+}
+.hero h1{font-size:60px}
+.hero p{font-size:24px;margin-top:10px}
+.btn{display:inline-block;margin-top:20px;padding:12px 25px;background:#f4a62a;color:#fff;text-decoration:none;border-radius:25px}
+.titulo{text-align:center;margin:40px 0 20px;color:#083b73}
+.info,.extra-card,.card{
+width:90%;max-width:1200px;margin:20px auto;
+background:rgba(255,255,255,.88);backdrop-filter:blur(10px);
+border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,.15)
+}
+.fila{display:grid;grid-template-columns:90px 280px 1fr;border-bottom:1px solid #ddd}
+.icono{background:#083b73;color:#fff;padding:20px;text-align:center;font-size:24px}
+.campo,.valor{padding:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;width:90%;margin:auto}
+.card{padding:20px;margin:0}
+.card h3{color:#083b73;margin-bottom:10px}
+.card i{font-size:28px;color:#f4a62a}
+.extra-card{padding:25px}
+.extra-card h2{text-align:center;color:#083b73;margin-bottom:15px}
+.extra-card ul{list-style:none}
+.extra-card li{padding:10px;margin:10px 0;background:#f8f8f8;border-left:4px solid #f4a62a}
+.extra-card a{text-decoration:none;color:#0a66c2}
+footer{margin-top:40px;background:#083b73;color:#fff;text-align:center;padding:25px}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<h1>Ingeniería de Inteligencia Artificial</h1>
+<p>Universidad Nacional Mayor de San Marcos<br>Facultad de Ingeniería de Sistemas e Informática</p>
+<a href="#horario" class="btn">Ver Horario</a>
+</section>
+
+<h2 class="titulo">Información Personal y Académica</h2>
+
+<div class="info">
+<div class="fila"><div class="icono"><i class="fas fa-user"></i></div><div class="campo">Nombre</div><div class="valor">Loris David Solano Rojas</div></div>
+<div class="fila"><div class="icono"><i class="fas fa-envelope"></i></div><div class="campo">Correo</div><div class="valor">loris.solanor@unmsm.edu.pe</div></div>
+<div class="fila"><div class="icono"><i class="fab fa-linkedin"></i></div><div class="campo">LinkedIn</div><div class="valor">https://www.linkedin.com/feed/</div></div>
+<div class="fila"><div class="icono"><i class="fas fa-graduation-cap"></i></div><div class="campo">Carrera</div><div class="valor">Ingeniería de Inteligencia Artificial</div></div>
+<div class="fila"><div class="icono"><i class="fas fa-university"></i></div><div class="campo">Universidad</div><div class="valor">UNMSM</div></div>
+</div>
+
+<div class="extra-card">
+<h2>Contactos</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/ecuadrosv/">Eric Cuadros</a></li>
+<li><a href="https://www.linkedin.com/in/patrick-jusephy-melo-ramos-a3b86640a/">Patrick Jusephy Melo Ramos</a></li>
+<li><a href="https://www.linkedin.com/in/alexandra-sullca-tintaya-55728833b/">Alexandra Sullca Tintaya</a></li>
+<li><a href="https://www.linkedin.com/in/ailym-taphne-saenz-orbegozo-6a0817404/">Ailym Taphne Saenz Orbegozo</a></li>
+<li><a href="https://www.linkedin.com/in/kiara-geraldine-zapana-yucra-661663346/">Kiara Geraldine Zapana Yucra</a></li>
+</ul>
+</div>
+
+<div class="extra-card">
+<h2>Páginas de Interés</h2>
+<ul>
+<li><a href="https://www.unmsm.edu.pe/">UNMSM</a></li>
+<li><a href="https://sistemas.unmsm.edu.pe/">FISI</a></li>
+<li><a href="https://admision.unmsm.edu.pe/">Admisión</a></li>
+<li><a href="https://campusvirtual.unmsm.edu.pe/">Campus Virtual</a></li>
+<li><a href="https://biblioteca.unmsm.edu.pe/">Biblioteca</a></li>
+</ul>
+</div>
+
+<h2 class="titulo" id="horario">Horario Semanal</h2>
+
+<div class="cards">
+<div class="card"><i class="fas fa-laptop-code"></i><h3>Lunes</h3><p>10am-1pm ICC<br>1pm-2pm Almuerzo<br>2pm-4pm ICC</p></div>
+<div class="card"><i class="fas fa-square-root-alt"></i><h3>Martes</h3><p>8am-2pm Álgebra y Geometría Analítica</p></div>
+<div class="card"><i class="fas fa-pen"></i><h3>Miércoles</h3><p>8am-12pm Redacción<br>12pm-2pm Almuerzo<br>2pm-4pm Cálculo I</p></div>
+<div class="card"><i class="fas fa-coffee"></i><h3>Jueves</h3><p>Día libre</p></div>
+<div class="card"><i class="fas fa-leaf"></i><h3>Viernes</h3><p>8am-12pm Medio Ambiente<br>12pm-2pm Almuerzo<br>2pm-6pm Cálculo I</p></div>
+<div class="card"><i class="fas fa-user-graduate"></i><h3>Sábado</h3><p>8am-11am Desarrollo Personal<br>11am-2pm Métodos de Estudio</p></div>
+<div class="card"><i class="fas fa-sun"></i><h3>Domingo</h3><p>Día libre</p></div>
+</div>
+
+<footer>
+<h3>UNMSM - FISI</h3>
+<p>Ingeniería de Inteligencia Artificial</p>
+</footer>
+
+</body>
+</html>
